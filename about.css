@@ -1,0 +1,213 @@
+/* -------------------- legends stills -------------------- */
+
+.legend-still{
+    background-color: rgb(230,223,215);
+}
+.legend-still img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ------------------------------- video section ---------------------------------- */
+
+.video-container{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+#video-elem{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+#content{
+    position: absolute;
+    z-index: -1;
+    left: 22%;
+}
+#content img{
+    display: block;
+    margin: 0 auto;
+}
+#content p{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 30px;
+}
+#content button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 0%;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 15px 20px;
+    color: white;
+    font-size: 17px;
+}
+
+/* --------------------- apex media ------------------------ */
+
+.apex-media{
+    background-color: rgb(230,223,215);
+    padding: 3% 8%;
+}
+.apex-media img{
+    width: 550px;
+    height: 300px;
+}
+/* ------ grid --------- */
+.apex-media{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+.apex-media img{
+    grid-column: 1/2;
+}
+.media-info{
+    grid-column: 2/3;
+}
+/* ------- normal -------- */
+.media-info{
+    padding: 10px 50px;
+}
+#m-info h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+#m-info p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+    font-weight: 50px;
+    padding: 30px 0px;
+    line-height: 25px;
+}
+.roast{
+    color: white;
+    background-color: rgb(218,43,42);
+    border: none;
+    border-radius: 0;
+    width: 200px;
+    height: 3rem;
+    font-size: 18px;
+}
+
+/* --------------------------------------- YOUR SQUAD ---------------------------- */
+
+#your-squad{
+    background-color: rgb(230,223,215);
+    padding: 4% 6%;
+}
+#your-squad h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+#your-squad p{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(75, 75, 75);
+    font-size: 17px;
+    font-weight: 50px;
+    padding: 15px 0px;
+}
+
+/* -------------------------------- cards ----------------------------- */
+
+#cards{
+    background-color: rgb(230,223,215);
+    padding: 3% 7%;
+}
+.card{
+    width: 100%;
+    height: auto;
+}
+/* -------- griding --------------- */
+#cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+/* -------------- normal ------ */
+#cards h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding: 20px 10px;
+}
+#cards p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(143, 139, 139);
+    font-size: 17px;
+    font-weight: 50px;
+    padding-left: 10px;
+    padding-right: 40px;
+    word-spacing: 2px;
+}
+
+/* ---------------------------------------- explore more ------------------------------- */
+
+#explore-more{
+    background-color: rgb(230,223,215);
+    padding: 3% 7%;
+}
+#explore-more h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+#card-1 h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-top: 5%;
+}
+/* ------------ griding ----------- */
+#card-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    grid-column-gap: 20px;
+}
+
+/* ---------------------------- About ------------------------------ */
+
+.about{
+    background: rgb(224,220,211);
+    padding: 0px 15%;
+    padding-bottom: 10%;
+}
+.about h2{
+    text-align: center;
+    padding: 5% 0%;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.about p{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(82, 79, 79);
+    font-size: 17px;
+    font-weight: 50px;
+}
+.about img{
+    display: block;
+    margin: 0% auto;
+    padding-bottom: 50px;
+}

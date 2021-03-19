@@ -1,0 +1,115 @@
+
+/* ------------------------------ header ----------------------------------- */
+
+header{
+    
+    background-color: rgb(208,76,51);
+    padding: 100px 15% 6% 15%;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+.logo-block h3, p{
+    text-align: center;
+    color: white;
+}
+.logo-block h3{
+    margin: 30px 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 44px;
+    letter-spacing: 3px;
+}
+.logo-block p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+}
+
+/* ----------------------------- characters --------------------------- */
+
+.container{
+    padding: 0 6% 8% 6%;
+    background-color: rgb(229,225,216);
+}
+.inner-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 100px;
+}
+.char{
+    height: 330px;
+    width: auto;
+}
+
+/* ------------ grids start ------------ */
+
+.bangalore{
+    grid-column: 1/4;
+}
+.bloodhound{
+    grid-column: 4/7;
+}
+.caustic{
+    grid-column: 7/10;
+}
+.crypto{
+    grid-column: 10/13;
+}
+.gibraltor{
+    grid-column: 1/4;
+}
+.lifeline{
+    grid-column: 4/7;
+}
+.loba{
+    grid-column: 7/10;
+}
+.mirage{
+    grid-column: 10/13;
+}
+.octane{
+    grid-column: 1/4;
+}
+.pathfinder{
+    grid-column: 4/7;
+}
+.rampart{
+    grid-column: 7/10;
+}
+.revenant{
+    grid-column: 10/13;
+}
+.wattson{
+    grid-column: 4/7;
+}
+.wraith{
+    grid-column: 7/10;
+}
+.pro{
+    text-align: center;
+    color: rgb(53, 53, 53);
+    margin: 20px 0 66px 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h4{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.right-arrow{
+    display: block;
+    margin: 0 auto;
+    height: 45px;
+    width: auto;
+}
+.right-arrow:hover{
+    height: 50px;
+    width: auto;
+}
+.link{
+    display: block;
+    height: 50px;
+}

@@ -1,0 +1,103 @@
+/* ------------------------ discriptive ------------------------ */
+
+.video-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#video-elem{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+#content{
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    left: 120px;
+    max-width: 1100px;
+}
+#content img{
+    display: block;
+    margin: 0 auto;
+    height: 240px;
+    width: auto;
+}
+#content h2, p{
+    text-align: center;
+}
+#content h2{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+#dis{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/* ------- grid ---------- */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+.container p, h3{
+    text-align: center;
+}
+#one, #two, #three{
+    max-width: 350px;
+}
+.para{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.container h3{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    letter-spacing: ;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+
+/* ---------------------- playing information ------------------------- */
+.play-info{
+    background-color: rgb(231,46,163);
+}
+
+/* -------------------------- squad ------------------------------------ */
+
+#four img{
+    height: auto;
+    width: 100%;
+}
+/* ------------ grid ------------- */
+.squad{
+    padding: 2% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#four{
+    padding-top: 3%;
+}
+#five{
+    padding: 3% 5%;
+}
+#five p{
+    text-align: left;
+}
+#five h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
